@@ -783,6 +783,9 @@
   .bg-\[\#faf5ef\] {
     background-color: #faf5ef;
   }
+  .bg-\[\#fbf7f2\] {
+    background-color: #fbf7f2;
+  }
   .bg-amber-100 {
     background-color: var(--color-amber-100);
   }
@@ -798,6 +801,12 @@
       background-color: color-mix(in oklab, var(--color-amber-100) 50%, transparent);
     }
   }
+  .bg-amber-100\/90 {
+    background-color: color-mix(in srgb, oklch(96.2% 0.059 95.617) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-100) 90%, transparent);
+    }
+  }
   .bg-amber-200 {
     background-color: var(--color-amber-200);
   }
@@ -806,6 +815,15 @@
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-amber-200) 50%, transparent);
     }
+  }
+  .bg-amber-200\/90 {
+    background-color: color-mix(in srgb, oklch(92.4% 0.12 95.746) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-200) 90%, transparent);
+    }
+  }
+  .bg-amber-200\/100 {
+    background-color: var(--color-amber-200);
   }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
@@ -974,6 +992,9 @@
   }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
+  }
+  .py-16 {
+    padding-block: calc(var(--spacing) * 16);
   }
   .pt-2 {
     padding-top: calc(var(--spacing) * 2);

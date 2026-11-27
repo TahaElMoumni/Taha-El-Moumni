@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/public/css/styles.css">
+<link rel="stylesheet" href="./public/css/index.css">
 <title>Document</title>
 </head>
 <body>
@@ -131,10 +132,96 @@
         </div>
       </div>
     </article>
-
-    
-
   </div>
+</section>
+<section class="w-full min-h-screen bg-orange-50/60 flex flex-col gap-10 p-8 lg:px-24 lg:py-16">
+  <div class="flex flex-col lg:flex-row justify-between items-start gap-8">
+    <div class="max-w-3xl flex flex-col gap-3">
+      <span class="text-xs lg:text-sm font-bold uppercase text-gray-600">Safe Circle & Solidarity</span>
+      <h1 class="text-4xl font-serif font-bold text-black">A Community That Understands</h1>
+      <p class="text-base lg:text-lg text-gray-500 italic mt-1">Whether you are navigating an ongoing situation or reflecting on a chapter you survived, your feelings are valid. Share anonymously or read words of resilience from women walking beside you.</p>
+    </div>
+  </div>
+  <section class="communitylayout">
+  <div class="card">
+    <h2>Share Your Experience Safely</h2>
+    <p class="note">No email, phone number, or real name is required. Nothing is tracked or linked to your device.</p>
+
+    <form class="story">
+      <div class="field">
+        <label>Display Name (Optional — Defaults to Anonymous)</label>
+        <input type="text" placeholder="e.g; Anonymous Sister, Maya, Quiet Strength" />
+      </div>
+
+      <div class="field">
+        <label>Experience Category</label>
+        <select>
+          <option>Finding My Voice</option>
+          <option>Resilience and Recovery</option>
+          <option>Autonomy and Independence</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Your Words <span class="required">*</span></label>
+        <textarea rows="5" placeholder="Write at your own pace. Share a moment of truth, a boundary you set, or reassurance for another woman..."></textarea>
+      </div>
+
+      <button type="submit" class="submit">Share Anonymously</button>
+    </form>
+  </div>
+
+  <div class="twitter">
+    <div class="twitterhead">
+      <h2>Voices of Resilience and Encouragement</h2>
+      <span>Tap "I Hear You" to send solidarity</span>
+    </div>
+
+    <article class="story">
+      <div class="top">
+        <div class="author">
+          <span class="badge orange">Resilience and Recovery</span>
+        </div>
+        <span class="timestamp">Shared 2 hours ago</span>
+      </div>
+      <p class="quote">"To anyone being told that nobody else will ever care for you because of your disability: that is a lie designed to keep you small. You deserve tenderness, patience, and full respect."</p>
+      <div class="card-footer">
+        <button type="button" class="hear-btn">I Hear You <span class="count">54</span></button>
+        <button type="button" class="listen-btn">Listen</button>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="top">
+        <div class="author">
+          <span class="badge gray">Autonomy and Independence</span>
+        </div>
+        <span class="times">Shared yesterday</span>
+      </div>
+      <p class="quote">"Opening my own bank account with screen-reader accessible statements was my first step toward independence. Small steps still move mountains."</p>
+      <div class="cardfooter">
+        <button type="button" class="hear">I Hear You <span class="count">73</span></button>
+        <button type="button" class="listen">Listen</button>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="top">
+        <div class="author">
+          <span class="badge orange">Finding My Voice</span>
+        </div>
+        <span class="times">Shared 3 days ago</span>
+      </div>
+      <p class="quote">"Reading stories here helped me name what was happening to me: financial and medical neglect. Just knowing there is a word for it lifted a weight off my chest."</p>
+      <div class="cardfooter">
+        <button type="button" class="hear">I Hear You <span class="count">61</span></button>
+        <button type="button" class="listen">Listen</button>
+      </div>
+    </article>
+  </div>
+</section>
+<section>
+  
 </section>
 </main>
 </body>
