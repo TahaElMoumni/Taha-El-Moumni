@@ -6,3 +6,4 @@ Fixed a proper navbar, only need to implement a good dropdown for respo.
 perhaps i'll make it larger and have the options bigger instead?
 implemented the same navbar to the other refs, only difference is each section was given an underline, used border bottom for that, felt easier.
 for now respo will be hidden until I can fix it.
+All the sections were made using flex, a project using html and tailwind, except the community tab in the first page, css.
