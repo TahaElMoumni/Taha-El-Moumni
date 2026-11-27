@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2.5rem;
+  gap: 9rem;
 }
 
 .card {
@@ -76,8 +76,8 @@ form.story {
   color: white;
   border: none;
   border-radius: 1rem;
-  padding: 0.95rem;
-  font-size: 0.9rem;
+  padding: 1rem;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -132,16 +132,16 @@ article.story {
 .badge {
   font-weight: 600;
   padding: 0.3rem 1rem;
-  border-radius: 9px;
+  border-radius: 9999px;
 }
 
 .badge,.gray {
-  background-color: white;
+  background-color: lightgray;
   color: green;
 }
 
 .badge.orange {
-  background-color: white;
+  background-color: lightgray;
   color: orangered;
 }
 
@@ -169,7 +169,7 @@ article.story {
 .hear-btn {
   background-color: silver;
   border: 1px solid white;
-  border-radius: 9px;
+  border-radius: 9999px;
   padding: 0.45rem 1rem;
   font-size: 0.8rem;
   font-weight: 600;
